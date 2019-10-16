@@ -1,0 +1,105 @@
+﻿@model WebMotors.IO.Application.ViewModels.AnuncioViewModel
+
+@{
+    ViewData["Title"] = "Registrar novo Evento";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Preencha todos os Dados corretamente</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <vc:summary></vc:summary>
+            <div class="form-group">
+                <label asp-for="Marca" class="control-label"></label>
+                <select asp-for="Marca" class="form-control"></select>
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Modelo" class="control-label"></label>
+                <select asp-for="Modelo" class="form-control"></select>
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Versao" class="control-label"></label>
+                <select asp-for="Versao" class="form-control"></select>
+                <span asp-validation-for="Versao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ano" class="control-label"></label>
+                <text disable asp-for="Ano" class="form-control"></text>
+                <span asp-validation-for="Ano" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quilometragem" class="control-label"></label>
+                <text disable asp-for="Quilometragem" class="form-control"></text>
+                <span asp-validation-for="Quilometragem" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Observacao" class="control-label"></label>
+                <textarea rows="5" asp-for="Observacao" class="form-control" />
+                <span asp-validation-for="Observacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Registrar" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-info">Voltar para Lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <script>
+        var settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": "http://desafioonline.webmotors.com.br/api/OnlineChallenge/Make",
+            "method": "GET",
+            "headers": {
+                "cache-control": "no-cache",
+                "postman-token": "497ccdb0-8a58-8d40-2ddf-ae92cf00161a"
+            }
+        }
+
+        $.ajax(settings).done(function (response) {
+            debugger;
+            var $dropdown = $("#Marca");
+            $.each(response, function () {
+                $dropdown.append($("<option />").val(this.ImageFolderID).text(this.Name));
+            });
+        });
+    </script>
+    @{ if (ViewBag.RetornoPost != null)
+        {
+            var notificacao = ViewBag.RetornoPost.ToString().Split(',');
+            <script>
+                toastr.options = {
+                "closeButton": false,
+                    "debug": false,
+                    "newestOnTop": false,
+                    "progressBar": false,
+                    "positionClass": "toast-top-right",
+                    "preventDuplicates": false,
+                    "onclick": null,
+                    "showDuration": "300",
+                    "hideDuration": "1000",
+                    "timeOut": "5000",
+                    "extendedTimeOut": "1000",
+                    "showEasing": "swing",
+                    "hideEasing": "linear",
+                    "showMethod": "fadeIn",
+                    "hideMethod": "fadeOut"
+                }
+
+            toastr["@notificacao[0]"]("@notificacao[1]")
+            </script>
+        }
+    }
+}

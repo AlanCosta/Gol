@@ -1,0 +1,8 @@
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp3.0\Gol.IO.Domain.Core.deps.json
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp3.0\Gol.IO.Domain.Core.dll
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp3.0\Gol.IO.Domain.Core.pdb
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\Gol.IO.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\Gol.IO.Domain.Core.AssemblyInfo.cs
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\Gol.IO.Domain.Core.dll
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\Gol.IO.Domain.Core.pdb
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\Gol.IO.Domain.Core.csprojAssemblyReference.cache

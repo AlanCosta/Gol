@@ -1,0 +1,11 @@
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\Gol.IO.Domain.csprojAssemblyReference.cache
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\Gol.IO.Domain.AssemblyInfoInputs.cache
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\Gol.IO.Domain.AssemblyInfo.cs
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\Gol.IO.Domain.deps.json
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\Gol.IO.Domain.dll
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\Gol.IO.Domain.pdb
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\Gol.IO.Domain.Core.dll
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\Gol.IO.Domain.Core.pdb
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\Gol.IO.Domain.csproj.CopyComplete
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\Gol.IO.Domain.dll
+C:\Users\re038932\Desktop\Core\Gol\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\Gol.IO.Domain.pdb

@@ -1,0 +1,11 @@
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\WebMotors.IO.Domain.deps.json
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\WebMotors.IO.Domain.dll
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\WebMotors.IO.Domain.pdb
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\WebMotors.IO.Domain.Core.dll
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\bin\Debug\netcoreapp3.0\WebMotors.IO.Domain.Core.pdb
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\WebMotors.IO.Domain.csprojAssemblyReference.cache
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\WebMotors.IO.Domain.AssemblyInfoInputs.cache
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\WebMotors.IO.Domain.AssemblyInfo.cs
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\WebMotors.IO.Domain.csproj.CopyComplete
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\WebMotors.IO.Domain.dll
+C:\Users\re038932\Desktop\Core\WebMotors.IO\src\Eventos.IO.Domain\obj\Debug\netcoreapp3.0\WebMotors.IO.Domain.pdb

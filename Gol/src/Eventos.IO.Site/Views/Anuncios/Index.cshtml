@@ -1,0 +1,77 @@
+﻿@model IEnumerable<WebMotors.IO.Application.ViewModels.AnuncioViewModel>
+
+@{
+    ViewData["Title"] = "Lista dos próximos Eventos";
+}
+
+<h2>@ViewData["Title"]</h2>
+<div class="row">
+    <div class="col-md-12">
+        <div class="pull-left">
+            <a asp-action="Create" class="btn btn-primary"></a>
+            <span title="Novo Evento" class="glyphicon glyphicon-plus-sign"> Novo Evento </span>
+        </div>
+    </div>
+</div>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Versao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ano)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quilometragem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Observacao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Versao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ano)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quilometragem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observacao)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-search"></span>
+                </a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                    <span class="glyphicon glyphicon-trash"></span>
+                </a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Domain.Core\\WebMotors.IO.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Domain.Core\\WebMotors.IO.Domain.Core.csproj",
+        "projectName": "WebMotors.IO.Domain.Core",
+        "projectPath": "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Domain.Core\\WebMotors.IO.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\re038932\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\re038932\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj",
+        "projectName": "Eventos.IO.Infra.CrossCutting.Bus",
+        "projectPath": "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\re038932\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\re038932\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Domain.Core\\WebMotors.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\re038932\\Desktop\\Core\\WebMotors.IO\\src\\Eventos.IO.Domain.Core\\WebMotors.IO.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
